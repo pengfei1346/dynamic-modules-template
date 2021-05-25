@@ -1,24 +1,21 @@
-# testa
 
-## Project setup
+### 创建module
 ```
-yarn install
-```
+npm run create:module
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+//输入mudole名称后会将template文件夹拷贝至mudule下并重命名为输入的module名称
 ```
 
-### Compiles and minifies for production
+### module dev 运行
+
+在package.json文件script新增一行命令
 ```
-yarn build
+"serve:test1": "vue-cli-service serve --module=test1"
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+### module build 打包
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+在package.json文件script新增一行命令
+```
+"build:test1": "vue-cli-service build --module=test1"
+```

@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --module=test1",
-    "build": "vue-cli-service build --module=test1",
+    "serve:test1": "vue-cli-service serve --module=test1",
+    "build:test1": "vue-cli-service build --module=test1",
     "create:module": "node scripts/createModule.js",
     "lint": "vue-cli-service lint"
   },
